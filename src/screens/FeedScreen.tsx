@@ -62,30 +62,11 @@ const FeedScreen = ({navigation}: any) => {
     });
   }, [navigation]);
 
-  // useEffect(() => {
-  //   const loadPosts = async () => {
-  //     setLoading(true);
-  //     console.log('loadPosts');
-  //     const db = await getDBconnection();
-  //     await createTables(db);
-  //     const savedPosts = await fetchPosts(db);
-  //     dispatch(setPosts(savedPosts));
-  //     if (await isConnected()) {
-  //       const unsynced = savedPosts.filter(p => !p.synced);
-  //       await syncPosts(unsynced, dispatch);
-  //     }
-  //     const loggedInUserId = await getLoggedInUser();
-  //     setLoggedInUser(loggedInUserId?.id);
-  //     setLoading(false);
-  //   };
 
-  //   loadPosts();
-  // }, [dispatch]);
   useFocusEffect(
     useCallback(() => {
       const loadPosts = async () => {
         setLoading(true);
-        console.log('loadPosts');
         const db = await getDBconnection();
         await createTables(db);
         const savedPosts = await fetchPosts(db);

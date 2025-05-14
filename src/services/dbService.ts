@@ -84,7 +84,6 @@ export const fetchPosts = async (db: SQLite.SQLiteDatabase) => {
 };
 
 export const markPostAsSynced = async (db: SQLite.SQLiteDatabase, id: string) => {
-  console.log("markPostAsSynced", id);
   const query = `UPDATE posts SET synced = 1 WHERE id = ?`;
   const results = await db.executeSql(query, [id]);
   console.log(results);
