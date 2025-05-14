@@ -1,4 +1,3 @@
-
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 
 export interface Post {
@@ -38,11 +37,11 @@ const postsSlice = createSlice({
       }
     },
     editPost: (state, action: PayloadAction<{id: string; content: string}>) => {
-      const post = state.posts.find(p => p.id === action.payload.id);
-      if (post) {
-        post.content = action.payload.content;
-        post.synced = false;
-      }
+      state.posts = state.posts.map(post =>
+        post.id === action.payload.id
+          ? {...post, content: action.payload.content, synced: false}
+          : post,
+      );
     },
     deletePost: (state, action: PayloadAction<string>) => {
       state.posts = state.posts.map(p =>

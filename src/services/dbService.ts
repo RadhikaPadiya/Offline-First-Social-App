@@ -84,12 +84,17 @@ export const fetchPosts = async (db: SQLite.SQLiteDatabase) => {
 };
 
 export const markPostAsSynced = async (db: SQLite.SQLiteDatabase, id: string) => {
-  await db.executeSql(`UPDATE posts SET synced = 1 WHERE id = ?`, [id]);
+  console.log("markPostAsSynced", id);
+  const query = `UPDATE posts SET synced = 1 WHERE id = ?`;
+  const results = await db.executeSql(query, [id]);
+  console.log(results);
 };
 
 export const updatePostContent = async (db: SQLite.SQLiteDatabase, id: string, content: string) => {
   const query = `UPDATE posts SET content = ?, synced = 0, updated = 1 WHERE id = ?`;
   await db.executeSql(query, [content, id]);
+
+  
 };
 
 export const softDeletePost = async (db: SQLite.SQLiteDatabase, id: string) => {

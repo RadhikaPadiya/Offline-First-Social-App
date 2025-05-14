@@ -13,7 +13,9 @@ export const syncPosts = async (unsyncedPosts: any[], dispatch: AppDispatch) => 
         await hardDeletePost(db, post.id);
         dispatch(removePost(post.id));
       } else if (post.updated) {
-        await axios.put(`https://jsonplaceholder.typicode.com/posts/${post.id}`, {
+        // As the API doesn't support updating posts with Alphanumeric IDs, we have to use the numeric ID by using the first character number of the ID
+
+        await axios.put(`https://jsonplaceholder.typicode.com/posts/${post.id.toString()[0]}`, {
           id: post.id,
           content: post.content,
         });
