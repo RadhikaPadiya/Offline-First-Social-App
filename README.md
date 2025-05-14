@@ -36,22 +36,22 @@
 ## 📸 Screenshots 
 
 >*Login Screen*
-<img src="https://github.com/user-attachments/assets/7afe155f-32bd-4d15-9507-c8f92d76aeeb" alt="Screenshot" width="250" height="400" />
+<img src="https://github.com/user-attachments/assets/fb1bceae-5578-45e5-b4b1-bb6011cd507b" alt="Screenshot" width="250" height="400" />
 
 >*SignUp Screen*
-<img src="https://github.com/user-attachments/assets/194d0efa-32a6-40de-b858-d2db65af1485" alt="Screenshot" width="230" height="400" />
+<img src="https://github.com/user-attachments/assets/ae15e80c-c83e-4f39-b0e6-06764d88bce3" alt="Screenshot" width="230" height="400" />
 
 >*Feed (offline)*
-<img src="https://github.com/user-attachments/assets/57c5e9af-fde9-40ed-a277-78bfcf6cb323" alt="Screenshot" width="230" height="400" />
+<img src="https://github.com/user-attachments/assets/641b471b-b912-41f8-87ea-200d9c1fe0f9" alt="Screenshot" width="230" height="400" />
 
 >*Feed (synced automatically when online)*
-<img src="https://github.com/user-attachments/assets/52773fc4-d473-4ca1-9e5a-b26b2097e744" alt="Screenshot" width="230" height="400" />
+<img src="https://github.com/user-attachments/assets/9ea04811-0e4c-4e50-b85b-22c86de37571" alt="Screenshot" width="230" height="400" />
 
 >*Add/Update Post*
-<img src="https://github.com/user-attachments/assets/1e64ae64-219f-499d-93e9-e71e58f866dd" alt="Screenshot" width="230" height="400" />
+<img src="https://github.com/user-attachments/assets/fa50eebf-9365-41e3-87f9-b529d064c357" alt="Screenshot" width="230" height="400" />
 
 >*Logout*
-<img src="https://github.com/user-attachments/assets/0e041e8f-2c4b-4692-8ac5-e1eb75b5cf6d" alt="Screenshot" width="230" height="400" />
+<img src="https://github.com/user-attachments/assets/0c4bb382-acea-480a-8c5f-e5463ad59b98" alt="Screenshot" width="230" height="400" />
 
 
 
