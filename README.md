@@ -131,18 +131,6 @@ When the app detects internet connectivity, it automatically:
 App.js
 ```
 
----
-
-## 👥 Dummy User for Login
-
-| Username | Password      |
-| -------- | ------------- |
-| `demo`   | `password123` |
-
-> ⚠️ This is a demo app, so credentials are hardcoded for testing purposes.
-
----
-
 
 ## 📚 Useful Commands
 
